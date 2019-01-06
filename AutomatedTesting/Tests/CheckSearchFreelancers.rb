@@ -8,17 +8,6 @@ require 'NonAppSpecific/Config'
 require 'NonAppSpecific/Log'
 require 'UpWorkSite/ProfilePage'
 
-#browser="firefox"
-#driver_action = DriverAction.new(browser)
-#
-#driver_action.clear_cookies()
-#
-#driver_action.navigate_to("https://www.upwork.com/fl/sheenagraham3")
-#driver = driver_action.get_driver()
-#pp = ProfilePage.new(driver)
-#puts(pp.getSkills)
-#exit(1)
-
 conf = Config.new()
 keyword = conf.get("keyword")
 browser = conf.get("browser")
